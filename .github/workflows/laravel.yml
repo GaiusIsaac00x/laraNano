@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "master" ]
   pull_request:
-    branches: [ "maste" ]
+    branches: [ "master" ]
 
 jobs:
   deployment:
@@ -39,6 +39,6 @@ jobs:
         script: |
           whoami
           ls -al
-          cd folder
+          cd gaius-isaac.sendrave.com
           composer update --ignore-platform-reqs
           php artisan storage:link
