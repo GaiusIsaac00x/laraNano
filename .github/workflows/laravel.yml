@@ -40,5 +40,5 @@ jobs:
           whoami
           ls -al
           cd folder
-          composer install --ignore-platform-reqs
+          composer update --ignore-platform-reqs
           php artisan storage:link
