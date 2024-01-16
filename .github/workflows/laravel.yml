@@ -42,3 +42,4 @@ jobs:
           cd gaius-isaac.sendrave.com
           composer update --ignore-platform-reqs
           php artisan storage:link
+          php artisan key:generate
